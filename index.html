@@ -2,344 +2,479 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grecia & Jonathan - Nuestra Boda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Anna & David — Nuestra Boda</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Great+Vibes&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-   <header class="hero">
-        <div class="reveal"> 
-            <p class="subtitle">Nuestra Boda</p>
-            <h1>Grecia & Jonathan</h1>
-            <p class="date-header">16 . DICIEMBRE . 2026</p>
-        </div>
-    </header>
-
-    <section class="nuestra-historia">
-    <div class="historia-grid">
+    <section class="banner-contador">
+        <div class="overlay"></div>
         
-        <div class="foto-columna reveal-left">
-            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=800" alt="Grecia y Jonathan">
+        <div class="banner-top reveal">
+            <p class="txt-superior">Nuestra Boda</p>
+            <h1 class="nombres-novios">Anna & David</h1>
         </div>
 
-        <div class="texto-columna reveal-right">
-            <div class="corazon-contenedor">
-                <svg class="corazon-animado" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                </svg>
-            </div>
-            
-            <h2 class="section-title-story">Nuestra Historia</h2>
-            <p class="mensaje-texto">
-                "Después de caminar por senderos distintos, hoy decidimos unir nuestros pasos. 
-                Queremos celebrar el amor, la vida y el comienzo de nuestra nueva aventura junto a las personas que más queremos."
-            </p>
-            <p class="firma">Con amor, Grecia & Jonathan</p>
-        </div>
-    </div>
-    </section>
-
-    <div class="separador-iniciales reveal">
-        <div class="linea"></div>
-        <span class="iniciales">G & J</span>
-        <div class="linea"></div>
-    </div>
-
-    <section class="pases-invitacion reveal">
-        <div class="pases-container">
-            <p class="nombre-invitado-label">Estimado(a):</p>
-            <h3 class="nombre-invitado-final">Familia García López</h3>
-            
-            <div class="divisor-pases"></div>
-            
-            <h2 class="section-title-mini">Lugares reservados en su honor:</h2>
-            
-            <div class="cupos-box">
-                <span class="numero-cupos">02</span>
-                <p class="texto-cupos">Personas</p>
-            </div>
-            
-            <p class="nota-pases">Agradecemos respetar el límite de invitados asignados.</p>
-
-            <div class="pases-footer">
-                <div class="padrino-linea"></div> <a href="#rsvp" class="btn-confirmar">Confirmar Asistencia</a>
+        <div class="banner-bottom reveal">
+            <div class="save-the-date-section">
+                <h2 class="save-the-date-title">Save the Date</h2>
+                <span class="fecha-boda">11 . 07 . 2026</span>
+                
+                <div id="countdown" class="countdown-grid">
+                    <div class="time-block">
+                        <span id="days">00</span>
+                        <small>Días</small>
+                    </div>
+                    <div class="time-block">
+                        <span id="hours">00</span>
+                        <small>Horas</small>
+                    </div>
+                    <div class="time-block">
+                        <span id="minutes">00</span>
+                        <small>Mins</small>
+                    </div>
+                    <div class="time-block">
+                        <span id="seconds">00</span>
+                        <small>Segs</small>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="reveal">
-        <h2 class="section-title">Dónde & Cuándo</h2>
-        
-        <div class="info-grid">
-            <div class="card">
-                <h3>Ceremonia</h3>
-                <p>18:00 HRS<br>Parroquia de San Francisco</p>
-                <a href="https://maps.google.com" target="_blank" class="btn-link">Ver ubicación</a>
+    <section class="historia-editorial reveal">
+        <div class="editorial-wrapper">
+            
+            <div class="editorial-image reveal-left">
+                <img src="https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg" alt="Nuestra Historia">
+                <div class="editorial-frame"></div> </div>
+
+            <div class="editorial-content reveal-left">
+                <span class="editorial-tag">EL COMIENZO</span>
+                <h2 class="editorial-title">Nuestra <br> Historia</h2>
+                <p class="editorial-text">
+                    Hay momentos que definen una vida, y el nuestro comenzó de la manera más inesperada. 
+                    Entre conversaciones infinitas y silencios cómodos, descubrimos que el mundo era 
+                    mucho más brillante si lo caminábamos juntos. 
+                </p>
+                <p class="editorial-text">
+                    Hoy, esa complicidad se transforma en una promesa de eternidad.
+                </p>
+                <div class="editorial-signature">A & D</div>
             </div>
 
-            <div class="card">
-                <h3>Recepción</h3>
-                <p>20:00 HRS<br>Jardín Los Olivos</p>
-                <a href="https://maps.google.com" target="_blank" class="btn-link">Cómo llegar</a>
+        </div>
+    </section>
+
+    <section class="seccion-pases">
+        <div class="pases-container reveal-left">
+            <p class="pases-subtitle">Acceso Exclusivo</p>
+            
+            <div class="ticket-virtual">
+                <div class="ticket-header">
+                    <h2 class="ticket-title">Pases de Invitación</h2>
+                </div>
+                
+                <div class="ticket-body">
+                    <p class="invitado-label">Invitado</p>
+                    <h3 class="invitado-nombre">Familia García López</h3>
+                    
+                    <div class="ticket-divider">
+                        <span class="circle left"></span>
+                        <span class="line"></span>
+                        <span class="circle right"></span>
+                    </div>
+                    
+                    <div class="ticket-info">
+                        <div class="info-item">
+                            <span class="numero" id="num-pases">02</span>
+                            <span class="label">Personas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ticket-footer">
+                    <p>Favor de confirmar su asistencia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="revelacion-container">
+        <div class="foto-fija"></div>
+        <div class="overlay-revelacion"></div>
+        <div class="contenido-revelacion">
+            <h3 class="cita-amor reveal">"En cada detalle, nuestro amor"</h3>
+        </div>
+    </section>
+
+    <section class="ubicacion-detalles reveal">
+        <div class="ubicacion-header">
+            <p class="ubicacion-subtitle">Celebración</p>
+            <h2 class="section-title-editorial">Dónde & Cuándo</h2>
+            <div class="linea-centro"></div>
+        </div>
+
+    <div class="ubicacion-grid">
+            <div class="ubicacion-card">
+                <div class="card-icon-svg">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22v-9"></path>
+                        <path d="M18 13V9a6 6 0 0 0-12 0v4"></path>
+                        <path d="M4 13h16"></path>
+                        <path d="M12 18.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+                    </svg>
+                </div>
+                <h3 class="card-title">Ceremonia</h3>
+                <p class="card-hora">17:00 HRS</p>
+                <p class="card-lugar">Parroquia de San Francisco</p>
+                <p class="card-direccion">Av. Principal No. 123, Centro</p>
+                <a href="https://maps.google.com" target="_blank" class="btn-minimal">Ver ubicación</a>
+            </div>
+
+            <div class="ubicacion-card">
+                <div class="card-icon-svg">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 3h12l1 6H5l1-6z"></path>
+                        <path d="M16.5 21a2.5 2.5 0 0 0 2.5-2.5V9h-15v9.5A2.5 2.5 0 0 0 6.5 21h10z"></path>
+                        <path d="M12 15l2-2h-4l2 2z"></path>
+                    </svg>
+                </div>
+                <h3 class="card-title">Recepción</h3>
+                <p class="card-hora">19:00 HRS</p>
+                <p class="card-lugar">Hacienda Los Olivos</p>
+                <p class="card-direccion">Carr. Nacional Km 15, Valle Alto</p>
+                <a href="https://maps.google.com" target="_blank" class="btn-minimal">Cómo llegar</a>
             </div>
         </div>
     </section>
 
     <section class="nuestros-padres reveal">
-        <h2 class="section-title">Con la bendición de nuestros padres</h2>
-        
-        <div class="padres-grid">
-            <div class="padres-columna">
-                <p class="familia-label">Padres de la Novia</p>
-                <p class="nombre-padre">Jesús Gómez Lira</p>
-                <p class="nombre-padre">Monica Gutierrez Martínez</p>
-            </div>
+    <div class="padres-header">
+        <p class="padres-subtitle">Con la bendición de</p>
+        <h2 class="section-title-editorial">Nuestros Padres</h2>
+        <div class="linea-centro"></div>
+    </div>
 
-            <div class="padres-divisor">
-                <svg class="corazon-animado-mini" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                </svg>
-            </div>
+    <div class="padres-grid">
+        <div class="padres-columna">
+            <h3 class="padres-label">Padres de la Novia</h3>
+            <p class="nombre-padre">Nombre de la Madre</p>
+            <p class="nombre-padre">Nombre del Padre</p>
+        </div>
 
-            <div class="padres-columna">
-                <p class="familia-label">Padres del Novio</p>
-                <p class="nombre-padre">Santiago Swain del Bosque</p>
-                <p class="nombre-padre">Rocio Rangel Huerta</p>
+        <div class="padres-columna">
+            <h3 class="padres-label">Padres del Novio</h3>
+            <p class="nombre-padre">Nombre de la Madre</p>
+            <p class="nombre-padre">Nombre del Padre</p>
+        </div>
+    </div>
+</section>
+
+<section class="galeria-cinta reveal">
+    <div class="galeria-header">
+        <p class="galeria-subtitle">Galería</p>
+        <h2 class="section-title-editorial">Nuestro Amor en Fotogramas</h2>
+        <div class="linea-centro"></div>
+    </div>
+
+    <div class="cinta-wrapper">
+        <div class="cinta-track">
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1000&auto=format&fit=crop" alt="Momento 1"></div>
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop" alt="Momento 2"></div>
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1494913148647-3e0ce1756c80?q=80&w=1000&auto=format&fit=crop" alt="Momento 3"></div>
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1000&auto=format&fit=crop" alt="Momento 4"></div>
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=1000&auto=format&fit=crop" alt="Momento 1"></div>
+            <div class="cinta-item"><img src="https://images.unsplash.com/photo-1522673607200-1648832cee98?q=80&w=1000&auto=format&fit=crop" alt="Momento 2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="seccion-padrinos reveal">
+    <div class="padrinos-header">
+        <p class="padrinos-subtitle">Menciones Especiales</p>
+        <h2 class="section-title-editorial light">Nuestros Padrinos</h2>
+        <div class="linea-centro light"></div>
+    </div>
+
+    <div class="padrinos-grid">
+        <div class="padrino-item">
+            <h3 class="padrino-tipo">Velación</h3>
+            <p class="padrino-nombre">Nombre de la Padrino</p>
+            <p class="padrino-nombre">Nombre de la Madrina</p>
+        </div>
+
+        <div class="padrino-item">
+            <h3 class="padrino-tipo">Anillos</h3>
+            <p class="padrino-nombre">Nombre de la Padrino</p>
+            <p class="padrino-nombre">Nombre de la Madrina</p>
+        </div>
+
+        <div class="padrino-item">
+            <h3 class="padrino-tipo">Lazo</h3>
+            <p class="padrino-nombre">Nombre de la Padrino</p>
+            <p class="padrino-nombre">Nombre de la Madrina</p>
+        </div>
+
+        <div class="padrino-item">
+            <h3 class="padrino-tipo">Arras</h3>
+            <p class="padrino-nombre">Nombre de la Padrino</p>
+            <p class="padrino-nombre">Nombre de la Madrina</p>
+        </div>
+    </div>
+</section>
+
+<section class="seccion-itinerario-clean">
+    <div class="itinerario-header">
+        <p class="itinerario-subtitle">The Timeline</p>
+        <h2 class="section-title-editorial">Itinerario</h2>
+        <div class="linea-centro"></div>
+    </div>
+
+    <div class="itinerario-container-simple">
+        <div class="itinerario-row">
+            <div class="iti-time">17:00</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Ceremonia</h3>
+                <p>Parroquia de San Francisco</p>
             </div>
         </div>
-    </section>    
 
-    <div class="banner-separador reveal">
-        <div class="banner-overlay">
-            <div class="contador-banner">
-                <p class="contador-titulo">Faltan solo...</p>
-                <div id="countdown" class="countdown-grid">
-                    <div class="countdown-item"><span id="days">00</span><small>Días</small></div>
-                    <div class="countdown-item"><span id="hours">00</span><small>Hrs</small></div>
-                    <div class="countdown-item"><span id="minutes">00</span><small>Min</small></div>
-                </div>
+        <div class="itinerario-row">
+            <div class="iti-time">18:00</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Ceremonia Civil</h3>
+                <p>Jardín Principal de la Hacienda</p>
+            </div>
+        </div>
+
+        <div class="itinerario-row">
+            <div class="iti-time">19:30</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Recepción</h3>
+                <p>Entrada triunfal de los novios</p>
+            </div>
+        </div>
+
+        <div class="itinerario-row">
+            <div class="iti-time">21:00</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Cena</h3>
+                <p>Banquete de tres tiempos</p>
+            </div>
+        </div>
+
+        <div class="itinerario-row">
+            <div class="iti-time">22:30</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Apertura de Pista</h3>
+                <p>Nuestro primer baile</p>
+            </div>
+        </div>
+
+        <div class="itinerario-row">
+            <div class="iti-time">02:00</div>
+            <div class="iti-dot"></div>
+            <div class="iti-text">
+                <h3>Fin del Evento</h3>
+                <p>Gracias por acompañarnos</p>
             </div>
         </div>
     </div>
+</section>
 
-    <section class="padrinos reveal">
-        <h2 class="section-title">Nuestros Padrinos</h2>
-        <p class="padrinos-intro">Personas especiales que caminan con nosotros.</p>
-
-        <div class="carousel-container">
-            <div class="carousel-track">
-                <div class="padrino-card">
-                    <span class="rama-padrino">🌿</span>
-                    <p class="padrino-tipo">Velación</p>
-                    <p class="padrino-nombre">Diana Gonzalez Acosta <br> & <br> Antonio Gomez López </p>
-                    <div class="padrino-linea"></div>
-                </div>
-
-                <div class="padrino-card">
-                    <span class="rama-padrino">🌿</span>
-                    <p class="padrino-tipo">Anillos</p>
-                    <p class="padrino-nombre">Nombres de los Padrinos</p>
-                    <div class="padrino-linea"></div>
-                </div>
-
-                <div class="padrino-card">
-                    <span class="rama-padrino">🌿</span>
-                    <p class="padrino-tipo">Medallas</p>
-                    <p class="padrino-nombre">Nombres de los Padrinos</p>
-                    <div class="padrino-linea"></div>
-                </div>
-
-                <div class="padrino-card">
-                    <span class="rama-padrino">🌿</span>
-                    <p class="padrino-tipo">Foto y Video</p>
-                    <p class="padrino-nombre">Nombres de los Padrinos</p>
-                    <div class="padrino-linea"></div>
-                </div>
-
-            </div>
-            
-            <div class="carousel-nav">
-                <button id="prevBtn">❮</button>
-                <button id="nextBtn">❯</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="regalos reveal">
-        <h2 class="section-title">Mesa de Regalos</h2>
-        
-        <div class="regalos-mensaje">
-            <p>
-                "Nuestra mayor alegría es compartir este día con ustedes. Su amor y su presencia son el regalo más grande que podríamos recibir. 
-                Sin embargo, si desean tener un detalle adicional para ayudarnos a comenzar nuestro nuevo hogar, aquí les dejamos algunas sugerencias."
-            </p>
-            <div class="padrino-linea"></div> </div>
-    </section>
+<section class="mesa-regalos reveal">
+    <div class="regalos-header">
+        <p class="regalos-subtitle">Mesa de Regalos</p>
+        <h2 class="section-title-editorial">Nuestra Nueva Etapa</h2>
+        <div class="linea-centro"></div>
+        <p class="regalos-mensaje">
+            Su presencia es nuestro mejor regalo, pero si desean tener un detalle con nosotros, 
+            estas son las opciones que hemos seleccionado para comenzar nuestro hogar.
+        </p>
+    </div>
 
     <div class="regalos-grid">
-        <div class="regalo-card">
-            <h3>Liverpool</h3>
-            <p>Pueden encontrar nuestra mesa de regalos en cualquier sucursal o en línea.</p>
-            <p class="evento-id">Número de evento: <br><strong>50482910</strong></p>
-            <a href="#" class="btn-link">Ir a la mesa</a>
-        </div>
-
-        <div class="regalo-card">
+        <div class="regalo-card reveal-item">
+            <div class="regalo-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+            </div>
             <h3>Amazon</h3>
-            <p>Hemos seleccionado algunos artículos que nos encantaría tener en nuestro nuevo hogar.</p>
-            <p class="evento-id">Buscador: <br><strong>Grecia & Jonathan</strong></p>
-            <a href="#" class="btn-link">Ver lista de deseos</a>
+            <p>Mesa de regalos No. 123456</p>
+            <a href="#" target="_blank" class="btn-minimal">Ver Mesa</a>
         </div>
 
-        <div class="regalo-card">
+        <div class="regalo-card reveal-item">
+            <div class="regalo-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+            </div>
+            <h3>Liverpool</h3>
+            <p>Mesa de regalos No. 78910</p>
+            <a href="#" target="_blank" class="btn-minimal">Ver Mesa</a>
+        </div>
+
+        <div class="regalo-card reveal-item">
+            <div class="regalo-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"></path><path d="M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7H3l2-4h14l2 4"></path><path d="M5 21V10.85"></path><path d="M19 21V10.85"></path><path d="M9 21V14"></path><path d="M15 21V14"></path></svg>
+            </div>
+            <h3>El Palacio de Hierro</h3>
+            <p>Evento No. 556677</p>
+            <a href="#" target="_blank" class="btn-minimal">Ver Mesa</a>
+        </div>
+
+        <div class="regalo-card reveal-item highlight">
+            <div class="regalo-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
             <h3>Lluvia de Sobres</h3>
             <p>Su presencia es nuestro mayor regalo, pero si desean apoyarnos con efectivo:</p>
-            <p class="datos-bancarios">
-                <strong>CLABE: 0123 4567 8901 2345</strong><br>
-                Banco: BBVA <br>
-                A nombre de: Jonathan R.
-            </p>
-            <div class="padrino-linea"></div>
+            
+            <div class="datos-banco">
+                <span><strong>Banco:</strong> BBVA</span><br>
+                <span><strong>CLABE:</strong> <span id="clabe-valor">012345678910111213</span></span><br>
+                <span><strong>Titular:</strong> Nombre de los Novios</span>
+            </div>
+
+            <button onclick="copiarClabe()" class="btn-copiar" id="btn-copy">
+                <span id="copy-text">Copiar CLABE</span>
+            </button>
         </div>
     </div>
+</section>
 
-    <section class="codigo-vestimenta reveal">
-        <h2 class="section-title">Código de Vestimenta</h2>
-        <div class="vestimenta-container">
+<section class="dress-code-dark reveal">
+    <div class="dress-header">
+        <p class="dress-subtitle light">Etiqueta</p>
+        <h2 class="section-title-editorial light">Código de Vestimenta</h2>
+        <div class="linea-centro light"></div>
+    </div>
 
-            <div class="vestimenta-info">
-                <h3>Etiqueta Formal</h3>
-                <p><strong>Damas:</strong> Vestido largo</p>
-                <p><strong>Caballeros:</strong> Traje formal</p>
+    <div class="dress-content">
+        <div class="dress-info">
+            <h3 class="dress-type light">Formal / Etiqueta</h3>
+            <p class="dress-note light">Nos encantaría verte lucir tu mejor gala en nuestro día especial.</p>
+        </div>
+
+        <div class="dress-icons-grid">
+            <div class="dress-icon-item light">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                    <line x1="16" y1="8" x2="2" y2="22"></line>
+                    <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                </svg>
+                <p>Traje o Smoking</p>
             </div>
-            
-            <div class="vestimenta-colores">
-                <div class="padrino-linea"></div>
-                <p class="nota-colores">Sugerencia de paleta de colores:</p>
-                <div class="paleta-colores">
-                    <div class="color-circle" style="background-color: #4a5d4e;"></div> <div class="color-circle" style="background-color: #b0935a;"></div> <div class="color-circle" style="background-color: #2c2c2c;"></div> </div>
-                <p class="excluyendo-blanco">Reservamos el color blanco exclusivamente para la novia.</p>
+
+            <div class="dress-icon-item light">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 3h12l3 18H3L6 3z"></path>
+                    <path d="M12 3v18"></path>
+                    <path d="M6 10h12"></path>
+                </svg>
+                <p>Vestido Largo</p>
             </div>
         </div>
-    </section>
 
-    <section class="itinerario reveal">
-        <h2 class="section-title">Itinerario</h2>
-        <p class="itinerario-intro">Momentos especiales que compartiremos</p>
-
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Ceremonia Religiosa</h3>
-                    <p>17:00 HRS</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Recepción</h3>
-                    <p>18:30 HRS</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Banquete</h3>
-                    <p>19:30 HRS</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Baile</h3>
-                    <p>21:00 HRS</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Pastel</h3>
-                    <p>22:30 HRS</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Fin del Evento</h3>
-                    <p>02:00 HRS</p>
-                </div>
-            </div>
+        <div class="dress-warning-dark">
+            <p class="warning-text light">
+                Agradecemos reservar el uso del <span class="white-box">color blanco</span> exclusivamente para la novia.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="galeria-stack reveal">
-        <h2 class="section-title">Momentos Juntos</h2>
-        <p class="galeria-intro">Nuestros recuerdos favoritos</p>
-        
-        <div class="stack-container">
-            <div class="foto-stack f1">
-                <img src="https://images.pexels.com/photos/1702138/pexels-photo-1702138.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Foto 1">
-            </div>
-            <div class="foto-stack f2">
-                <img src="https://images.pexels.com/photos/33815179/pexels-photo-33815179.jpeg" alt="Foto 2">
-            </div>
-            <div class="foto-stack f3">
-                <img src="https://images.pexels.com/photos/1488315/pexels-photo-1488315.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Foto 3">
-            </div>
-            <div class="foto-stack f4">
-                <img src="https://images.pexels.com/photos/2253879/pexels-photo-2253879.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Foto 4">
-            </div>
-        </div>
-    </section>
+<section class="seccion-rsvp reveal">
+    <div class="rsvp-header">
+        <p class="rsvp-subtitle">RSVP</p>
+        <h2 class="section-title-editorial">Confirmación de Asistencia</h2>
+        <div class="linea-centro"></div>
+        <p class="rsvp-fecha-limite">Favor de confirmar antes del 15 de Octubre, 2024</p>
+    </div>
 
+    <div class="rsvp-container">
+        <form id="rsvp-form" class="rsvp-form">
+            <div class="input-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+            </div>
 
-    <section id="rsvp" class="reveal">
-        <div class="rsvp-box">
-            <h2 class="section-title">Confirmación RSVP</h2>
-            <p>Por favor, confírmanos antes del 15 de noviembre.</p>
-            
-            <div class="form-group">
-                <input type="text" id="name" placeholder="Tu nombre completo">
-                <select id="attendance">
-                    <option value="Sí asistiré">Sí, asistiré con gusto</option>
-                    <option value="No podré asistir">Lo siento, no podré asistir</option>
+            <div class="input-group">
+                <label>¿Podrás acompañarnos?</label>
+                <div class="radio-group">
+                    <label class="radio-container">
+                        <input type="radio" name="asistencia" value="si" checked>
+                        <span class="radio-custom"></span>
+                        Sí, con gusto asistiré
+                    </label>
+                    <label class="radio-container">
+                        <input type="radio" name="asistencia" value="no">
+                        <span class="radio-custom"></span>
+                        Lamentablemente no podré
+                    </label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="invitados">Número de acompañantes</label>
+                <select id="invitados" name="invitados">
+                    <option value="1">1 Persona</option>
+                    <option value="2">2 Personas</option>
+                    <option value="3">3 Personas</option>
+                    <option value="4">4 Personas</option>
                 </select>
-                <button class="btn-gold" onclick="sendToWhatsApp()">Confirmar Asistencia</button>
+            </div>
+
+            <div class="input-group">
+                <label for="mensaje">Alergias o Restricciones Alimentarias</label>
+                <textarea id="mensaje" name="mensaje" rows="3" placeholder="Ej. Vegetariano, alergia a los frutos secos..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-rsvp">Enviar Confirmación</button>
+        </form>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="footer-content">
+        <h3 class="footer-logo">Diseños con Amor</h3>
+        <p class="footer-tagline">Creamos invitaciones digitales que cuentan historias.</p>
+        
+        <div class="footer-socials">
+            <a href="https://instagram.com/tuusuario" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/tuusuario" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="mailto:tuemail@ejemplo.com" aria-label="Email">
+                <i class="far fa-envelope"></i>
+            </a>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tu Nombre / Agencia. Todos los derechos reservados.</p>
+            <div class="footer-dev">
+                Diseñado con 
+                <svg class="mini-corazon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                para Anna & David
             </div>
         </div>
-    </section>
-
-    <footer class="main-footer">
-        <div class="footer-content">
-            <h3 class="footer-logo">Diseños con Amor</h3>
-            <p class="footer-tagline">Creamos invitaciones digitales que cuentan historias.</p>
-            
-            <div class="footer-socials">
-                <a href="https://instagram.com/tuusuario" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://facebook.com/tuusuario" target="_blank" aria-label="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="mailto:tuemail@ejemplo.com" aria-label="Email">
-                    <i class="far fa-envelope"></i>
-                </a>
-            </div>
-
-            <div class="footer-divider"></div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 Tu Nombre / Agencia. Todos los derechos reservados.</p>
-                <p class="footer-dev">Diseñado con ❤️ para Grecia & Jonathan</p>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
     <script src="./js/script.js"></script>
 </body>
